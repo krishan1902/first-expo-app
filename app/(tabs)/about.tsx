@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.Text}>Hello Expo!</Text>
+      <Text style={styles.text}>About screen!</Text>
     </View>
   );
 }
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#25292e",
   },
-  Text: {
+  text: {
     color: "#fff",
   },
 });
